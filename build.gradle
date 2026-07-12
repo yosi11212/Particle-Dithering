@@ -18,8 +18,10 @@ mossyDependencies {
 	parchment = prop("build.parchment")
 
 	additional {
-//		override("mossyCompileOnly", "iris")
-//		override("mossyCompileOnly", "sodium")
+		if (sc.current.project.contains("1.21.11") || sc.current.project.contains("neoforge")) {
+			override("mossyCompileOnly", "iris")
+			override("mossyCompileOnly", "sodium")
+		}
 	}
 }
 

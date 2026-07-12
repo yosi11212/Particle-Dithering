@@ -1,5 +1,8 @@
 package net.lopymine.pd.mixin;
 
+//? if >=26.1 {
+/*
+
 import com.mojang.blaze3d.buffers.GpuBufferSlice;
 import com.mojang.blaze3d.pipeline.RenderPipeline;
 import com.mojang.blaze3d.systems.*;
@@ -17,7 +20,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(RenderPass.class)
 public class RenderPassMixin {
 
-	@Shadow @Final private RenderPassBackend backend;
+	@Shadow
+	@Final
+	private RenderPassBackend backend;
 
 	@Unique
 	private boolean particleDithering$addedDitheringUniform = false;
@@ -62,3 +67,5 @@ public class RenderPassMixin {
 	}
 
 }
+*/
+//?}

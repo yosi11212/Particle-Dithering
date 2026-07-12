@@ -5,8 +5,16 @@
 	"compatibilityLevel": "JAVA_${java}",
 	"mixins": [],
 	"client": [
-		"ParticlesRenderStateMixin",
-		"RenderPassMixin"
+		//? if >=26.2 {
+		/*"QuadParticleFeatureRendererMixin",
+		*///?} else {
+		"ParticleFeatureRendererMixin",
+		//?}
+		//? if >=26.1 {
+		/*"RenderPassMixin"
+		*///?} else {
+		"GlRenderPassMixin"
+		//?}
 	],
 	"injectors": {
 		"defaultRequire": 1
