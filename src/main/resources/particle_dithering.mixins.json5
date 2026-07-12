@@ -6,15 +6,15 @@
 	"mixins": [],
 	"client": [
 		//? if >=26.2 {
-		/*"QuadParticleFeatureRendererMixin",
-		*///?} else {
-		"ParticleFeatureRendererMixin",
-		//?}
+		"QuadParticleFeatureRendererMixin",
+		//?} else {
+		/*"ParticleFeatureRendererMixin",
+		*///?}
 		//? if >=26.1 {
-		/*"RenderPassMixin"
-		*///?} else {
-		"GlRenderPassMixin"
-		//?}
+		"RenderPassMixin"
+		//?} else {
+		/*"GlRenderPassMixin"
+		*///?}
 	],
 	"injectors": {
 		"defaultRequire": 1

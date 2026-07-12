@@ -1,7 +1,7 @@
 package net.lopymine.pd.mixin;
 
 //? if >=26.2 {
-/*import java.util.List;
+import java.util.List;
 import net.lopymine.dl.dithering.DitheringData;
 import net.lopymine.dl.dithering.vanilla.VanillaDitheringDataBuffer;
 import net.lopymine.pd.config.ParticleDitheringConfig;
@@ -47,4 +47,4 @@ public class QuadParticleFeatureRendererMixin {
 		}
 	}
 }
-*///?}
+//?}

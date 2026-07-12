@@ -2,7 +2,7 @@ package net.lopymine.pd.mixin;
 
 //? if <=1.21.11 {
 
-import com.mojang.blaze3d.buffers.*;
+/*import com.mojang.blaze3d.buffers.*;
 import com.mojang.blaze3d.opengl.GlRenderPass;
 import com.mojang.blaze3d.pipeline.RenderPipeline;
 import com.mojang.blaze3d.systems.RenderPass;
@@ -71,4 +71,4 @@ public abstract class GlRenderPassMixin {
 	}
 
 }
-//?}
+*///?}

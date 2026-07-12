@@ -1,7 +1,7 @@
 package net.lopymine.pd.mixin;
 
 //? if <=26.1 {
-import com.llamalad7.mixinextras.sugar.Local;
+/*import com.llamalad7.mixinextras.sugar.Local;
 import net.lopymine.dl.dithering.DitheringData;
 import net.lopymine.dl.dithering.vanilla.VanillaDitheringDataBuffer;
 import net.lopymine.pd.config.ParticleDitheringConfig;
@@ -52,4 +52,4 @@ public class ParticleFeatureRendererMixin {
 		}
 	}
 }
-//?}
+*///?}

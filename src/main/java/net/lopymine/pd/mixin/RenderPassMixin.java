@@ -1,7 +1,7 @@
 package net.lopymine.pd.mixin;
 
 //? if >=26.1 {
-/*
+
 
 import com.mojang.blaze3d.buffers.GpuBufferSlice;
 import com.mojang.blaze3d.pipeline.RenderPipeline;
@@ -67,5 +67,5 @@ public class RenderPassMixin {
 	}
 
 }
-*/
+
 //?}
