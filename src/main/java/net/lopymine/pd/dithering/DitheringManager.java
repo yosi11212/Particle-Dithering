@@ -23,6 +23,12 @@ public class DitheringManager {
 	}
 
 	public static void updateBuffer() {
+		DitheringData data = createData();
+		data.push();
+		VanillaDitheringDataBuffer.update(data);
+	}
+
+	public static DitheringData createData() {
 		DitheringData data = DitheringLibAPI.getInstance().getData();
 		DitheringDataConfig config = ParticleDitheringConfig.getInstance().getDitheringDataConfig();
 		data.setFar((float) config.getFar());
@@ -30,7 +36,6 @@ public class DitheringManager {
 		data.setMinValue((float) config.getMinValue());
 		data.setFixedValue(1.0F);
 		data.setPixelSize((float) config.getPixelSize());
-		data.push();
-		VanillaDitheringDataBuffer.update(data);
+		return data;
 	}
 }

@@ -10,9 +10,9 @@
 		//?} else {
 		/*"ParticleFeatureRendererMixin",
 		*///?}
-		//? if >=26.1 {
+		//? if >=26.1 <26.3 {
 		"RenderPassMixin"
-		//?} else {
+		//?} elif <26.1 {
 		/*"GlRenderPassMixin"
 		*///?}
 	],

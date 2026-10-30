@@ -1,6 +1,6 @@
 package net.lopymine.pd.mixin;
 
-//? if >=26.1 {
+//? if >=26.1 <26.3 {
 
 
 import com.mojang.blaze3d.buffers.GpuBufferSlice;

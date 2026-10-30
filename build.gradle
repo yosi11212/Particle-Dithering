@@ -22,6 +22,21 @@ mossyDependencies {
 			override("mossyCompileOnly", "iris")
 			override("mossyCompileOnly", "sodium")
 		}
+		// DitheringLib for 26.3 isn't on Modrinth yet, it's taken from mavenLocal (see below)
+		if (sc.current.project.contains("26.3")) {
+			disable("dithering-lib")
+		}
+	}
+}
+
+if (sc.current.project.contains("26.3")) {
+	repositories {
+		mavenLocal()
+	}
+
+	dependencies {
+		// Publish it first with `./gradlew :<loader>-26.3:publishToMavenLocal` in the DitheringLib project
+		mossyImplementation("net.lopymine:dithering_lib:" + MossyUtils.substringBefore(prop("dep.dithering-lib"), "+") + "-" + stonecutter.current.project)
 	}
 }
 
